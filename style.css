@@ -65,4 +65,23 @@ button {
     text-decoration: none;
     font-size: 16px;
     border-radius: 12px;
-  }
+}
+
+.information_header{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    padding: 32px;
+}
+
+.info_pics_text{
+    display: flex;
+    padding: 32px;
+    justify-content: space-around;
+}
+
+.info_pics_text div img{
+    border: 5px solid #3882F6;
+    border-radius: 12px;
+}
