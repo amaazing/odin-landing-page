@@ -55,7 +55,7 @@ a {
     margin-right: 64px;
 }
 
-button {
+.head_button {
     background-color: #3882F6;
     border: none;
     color: white;
@@ -120,7 +120,7 @@ button {
     font-size: 16px;
     border-radius: 12px;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
 }
 
 .tail_text{
@@ -140,5 +140,16 @@ button {
 .text_under{
     padding: 0px 0px 36px;
     margin-left: 36px;
-    margin-right: 36px;
+    margin-right: 300px;
+}
+
+.tail_button{
+    background-color: #3882F6;
+    border-color: white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
 }
