@@ -102,3 +102,43 @@ button {
     font-weight: bold;
     padding-right: 30px;
 }
+
+.tail{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+}
+
+.calltoaction{
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 36px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tail_text{
+    display: flex;
+    flex-direction: column;
+}
+
+.tail_bold{
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding: 36px 0px 0px;
+    margin-left: 36px;
+    margin-right: 36px;
+}
+
+.text_under{
+    padding: 0px 0px 36px;
+    margin-left: 36px;
+    margin-right: 36px;
+}
